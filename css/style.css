@@ -1,0 +1,344 @@
+
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color:inherit;
+}
+body{
+	background: #eeeeee;
+	color: #303030;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.ba-container{
+	margin: 0 130px;
+}
+.ba-navbar{
+	margin: 50px auto 105px;
+}
+.ba-navbar__logo{
+	float: left;
+}
+
+.ba-navbar__logo h1{
+	margin: 0;
+	font-size: 48px;
+	font-weight: 900;
+}
+
+.ba-navbar__nav{
+	margin-top: 15px;
+	float: right;
+
+}
+
+.ba-navbar__menu{
+	list-style: none;
+}
+.ba-navbar__iteam{
+	float: right;
+	margin-left: 45px;
+}
+
+.ba-navbar:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.ba-slider{
+	position: relative;
+}
+.ba-slider__gradient{
+	background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%);	top: -150px;
+	left: 300px;
+	position: absolute;
+	width: 947px;
+	height: 852px;
+	z-index: 1;
+}
+
+.ba-slider__text{
+	width: 615px;
+	text-align: right;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+.ba-slider__text h1{
+	text-transform: uppercase;
+	font-size: 150px;
+	margin: 0;
+	line-height: 150px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	padding-bottom: 35px;
+}
+
+.ba-slider__text p{
+	font-size: 24px;
+	padding-left: 35px;
+	font-weight: 300;
+	line-height: 36px;
+	padding-bottom: 25px;
+}
+
+.ba-slider__text h3{
+	font-size: 24px;
+	margin: 0;
+	color: #e10011;
+}
+
+.ba-slider__img{
+	float: left;
+	margin-left: 104px;
+	position: relative;
+	z-index: 5;
+}
+
+.ba-slider__clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.ba-slider__nav{
+	margin: 70px auto 100px;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+.ba-slider__iteam{
+	border: none;
+	width: 11px;
+	height: 11px;
+	border-radius: 50px;
+	outline: none;
+	background: #303030;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.ba-slider__iteam1{
+	background: #e10011;
+}
+
+.ba-galary{
+	margin-top: 103px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding-bottom: 37px;
+
+}
+
+.ba-galary__text {
+	width: 551px;
+	margin: 0 auto;
+	padding: 114px 0 73px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+.ba-galary__text h1 {
+	margin: 0;
+	font-size: 48px;
+	font-weight: 900;
+	padding-bottom: 18px;
+}
+
+.ba-galary__text p {
+	padding-top: 12px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.ba-galary__images{
+	font-size: 0;
+	/*width: 1057px;*/
+	margin: 0 7%;
+}
+
+.ba-galary__image {
+	display: inline-block;
+	background-color: #eeeeee;
+	height: 387px;
+	border-radius: 5px;
+	position: relative;
+	vertical-align: top;
+}
+
+.ba-galary__image:first-child {
+	width: 65.5%;
+	background-image: url("../productman-assets/speaker-pill.png");
+}
+
+.ba-galary__image:nth-child(2),
+.ba-galary__image:nth-child(3),
+.ba-galary__image:nth-child(4),
+.ba-galary__image:nth-child(5) {
+	width: 31%;
+}
+
+.ba-galary__image:nth-child(2) {
+	background-image: url("../productman-assets/beats-headphones.png");
+}
+
+.ba-galary__image:nth-child(3) {
+	background-image: url("../productman-assets/watch.png");
+}
+
+.ba-galary__image:nth-child(4) {
+	background-image: url("../productman-assets/Casual-Shoes-For-Men-2.png");
+}
+
+.ba-galary__image:nth-child(5) {
+	background-image: url("../productman-assets/tumblr.png");
+}
+
+.ba-galary__image:first-child,
+.ba-galary__image:nth-child(3),
+.ba-galary__image:nth-child(4) {
+	margin-right: 3.5%;
+	margin-bottom: 35px;
+}
+
+.ba-galary__img--overlay{
+	background: #e10011;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	border-radius: 5px;
+	padding: 264px 37px 0;
+	visibility: hidden;
+}
+
+.ba-galary__img--overlay h3 {
+	display: inline;
+	width: 225px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	border-bottom: 5px solid #ffffff;
+}
+
+.ba-galary__image:hover .ba-galary__img--overlay{
+	visibility: visible;
+}
+
+.ba-form {
+	margin: 100px auto;
+}
+
+.ba-form__description {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 37px;
+}
+
+.ba-form__description h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 900;
+	margin: 0;
+	padding-bottom: 27px;
+}
+
+.ba-form__description p {
+	width: 551px;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+
+.ba-label__input {
+	/*display: inline-block;*/
+	background: blue;
+	border-radius: 35px 0 0 35px;
+	background-repeat: no-repeat;
+	/*position: relative;*/
+	width: 35px;
+	height: 70px;
+	padding-left: 35px;
+}
+
+.ba-form-btn {
+	outline: none;
+	border: none;
+	height: 70px;
+}
+
+
