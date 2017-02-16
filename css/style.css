@@ -224,7 +224,6 @@ body{
 
 .ba-galary__images{
 	font-size: 0;
-	/*width: 1057px;*/
 	margin: 0 7%;
 }
 
@@ -280,17 +279,20 @@ body{
 	top: 0;
 	bottom: 0;
 	border-radius: 5px;
-	padding: 264px 37px 0;
+	padding: 264px 25px 0;
 	visibility: hidden;
 }
 
 .ba-galary__img--overlay h3 {
 	display: inline;
-	width: 225px;
+	width: 230px;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	font-weight: 900;
+}
+
+.ba-galary__img--overlay h3 span{
 	border-bottom: 5px solid #ffffff;
 }
 
@@ -323,22 +325,100 @@ body{
 	margin: 0 auto;
 }
 
-
-.ba-label__input {
-	/*display: inline-block;*/
-	background: blue;
-	border-radius: 35px 0 0 35px;
-	background-repeat: no-repeat;
-	/*position: relative;*/
-	width: 35px;
-	height: 70px;
-	padding-left: 35px;
+.ba-form__space {
+	font-size: 0;
+	text-align: center;
 }
 
-.ba-form-btn {
+.ba-form__inline {
+	display: inline-block;
+}
+
+.ba-label__input {
+	width: 495px;
+	display: block;
+	border-radius: 35px 0 0 35px;
+	background: url("../productman-assets/mail.png") #ffffff;
+	background-position: 7% 50%;
+	background-repeat: no-repeat;
+	padding-left: 65px;
+	padding-right: 10px;
+
+}
+
+.ba-form__main-view {
+	width: 100%;
+	display: block;
 	outline: none;
 	border: none;
 	height: 70px;
+	font-size: 18px;
 }
 
+.ba-form__input{
+	color: #979797;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-style: italic;
 
+}
+
+.ba-form__button{
+	width: 208px;
+	border-radius: 0 35px 35px 0;
+	background-color: #e10011;
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+}
+
+.ba-form__triangle {
+	display: inline-block;
+	position: relative;
+	border: 8px solid transparent;
+	border-left: 8px solid #ffffff;
+	margin-left: 3px;
+	top: 1px;
+}
+
+.ba-footer {
+	margin: 100px auto 30px;
+}
+
+.ba-social-menu{
+	font-size: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.ba-social-iteams {
+	display: inline-block;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+	background: #ffffff;
+	text-align: center;
+	line-height: 70px;
+	margin: 10px;
+}
+
+.ba-social-icons{
+	vertical-align: middle;
+}
+
+.ba-social-iteams:hover {
+	background: #e10011;
+}
+
+.ba-footer__text {
+	margin-top: 65px;
+	font-family: 'Raleway', sans-serif;
+	color: #979797;
+	text-align: center;
+}
+
+.ba-footer__text span {
+	color: #303030;
+}
